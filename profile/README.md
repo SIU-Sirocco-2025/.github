@@ -10,7 +10,7 @@ Dự án được xây dựng theo tiêu chuẩn **dữ liệu mở đô thị t
 * **FiWARE Smart Data Models**
 * **Linked Open Data (LOD)**
 
-Eco-Track được xem như một bài **ứng dụng minh họa chuẩn cho đề thi Olympic Phần mềm Mã nguồn mở – OLP 2025**, trong phạm vi *dữ liệu môi trường – chất lượng không khí*.
+Eco-Track được xây dựng như một giải pháp hoàn chỉnh để tham dự cuộc thi Olympic Phần mềm Mã nguồn mở – OLP 2025, tập trung vào lĩnh vực dữ liệu đô thị mở về môi trường, đặc biệt là chất lượng không khí (AQI), theo đúng tiêu chuẩn NGSI-LD, SOSA/SSN và FiWARE Smart Data Models yêu cầu trong đề thi.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SIU-Sirocco-2025/Eco-Track/main/public/client/image/logo.png" width="180"/>
