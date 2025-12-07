@@ -226,16 +226,16 @@ H -- admin API --> E
 
 ## 📊 Giấy Phép Dữ Liệu Mở
 Dữ liệu được xuất bản theo giấy phép **ODC-BY 1.0**.  
-Xem chi tiết tại [https://github.com/SIU-Sirocco-2025/Eco-Track/blob/main/DATA_LICENSE.md](DATA_LICENSE.md).
+Xem chi tiết tại [DATA_LICENSE.md](https://github.com/SIU-Sirocco-2025/Eco-Track/blob/main/DATA_LICENSE.md).
 
 ## 📜 Giấy Phép Thư Viện Phụ Thuộc
 
-Danh sách giấy phép của tất cả dependencies (npm, Python) được tổng hợp tại [https://github.com/SIU-Sirocco-2025/Eco-Track/blob/main/DEPENDENCIES_LICENSES.md](DEPENDENCIES_LICENSES.md).
+Danh sách giấy phép của tất cả dependencies (npm, Python) được tổng hợp tại [DEPENDENCIES_LICENSES.md](https://github.com/SIU-Sirocco-2025/Eco-Track/blob/main/DEPENDENCIES_LICENSES.md).
 
 - Tự động tạo từ package.json và yêu cầu Python bằng script kiểm kê.
 - Mục tiêu: minh bạch bản quyền, tuân thủ phân phối theo GPL-3.0.
 
 ## 📄 Giấy Phép
-Phân phối theo GNU GPL v3.0. Xem [https://github.com/SIU-Sirocco-2025/Eco-Track/blob/main/DATA_LICENSE.md](LICENSE).
+Phân phối theo GNU GPL v3.0. Xem [LICENSE](https://github.com/SIU-Sirocco-2025/Eco-Track/blob/main/DATA_LICENSE.md).
 
 © 2025 Eco-Track – Cùng xây dựng bầu không khí trong lành cho TP. Hồ Chí Minh 🌿
