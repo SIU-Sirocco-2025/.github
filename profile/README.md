@@ -20,7 +20,7 @@ Eco-Track được xây dựng như một giải pháp hoàn chỉnh để tham 
 
 # 🌏 Sứ Mạng – Tầm Nhìn – Giá Trị Cốt Lõi
 
-## 🎯 **Sứ mạng (Mission)**
+##  **Sứ mạng (Mission)**
 
 Xây dựng nền tảng dữ liệu mở về môi trường giúp:
 
@@ -29,7 +29,7 @@ Xây dựng nền tảng dữ liệu mở về môi trường giúp:
 * Sinh viên – nhà nghiên cứu truy cập dữ liệu mở phục vụ học thuật
 * Thúc đẩy văn hóa **phát triển mã nguồn mở**, chia sẻ dữ liệu mở
 
-## 🚀 **Tầm nhìn (Vision)**
+##  **Tầm nhìn (Vision)**
 
 Trở thành nền tảng dữ liệu môi trường mở chuẩn hóa theo NGSI-LD đầu tiên tại Việt Nam, có khả năng:
 
@@ -39,7 +39,7 @@ Trở thành nền tảng dữ liệu môi trường mở chuẩn hóa theo NGSI
 * Kết nối vào hệ thống **đô thị thông minh quốc gia**
 * Ứng dụng quan sát – dự đoán – cảnh báo môi trường
 
-## ❤️ **Giá trị cốt lõi (Core Values)**
+##  **Giá trị cốt lõi (Core Values)**
 
 * **Minh bạch:** dữ liệu mở – mã nguồn mở
 * **Cộng đồng:** mọi người đều có quyền truy cập thông tin môi trường
@@ -49,7 +49,7 @@ Trở thành nền tảng dữ liệu môi trường mở chuẩn hóa theo NGSI
 
 ---
 
-# 🧩 Liên hệ với yêu cầu đề thi OLP 2025
+#  Liên hệ với yêu cầu đề thi OLP 2025
 
 Đề bài của OLP 2025 yêu cầu:
 
@@ -60,8 +60,8 @@ Trở thành nền tảng dữ liệu môi trường mở chuẩn hóa theo NGSI
 * Dữ liệu từ nguồn **OpenAQ, OpenWeatherMap, OSM, GTFS**
 * Hướng đến cộng đồng & quản lý đô thị
 
-👉 **Eco-Track đáp ứng hoàn toàn yêu cầu đề thi – được thiết kế theo đúng tiêu chuẩn đô thị thông minh.**
-👉 Tập trung vào **dữ liệu chất lượng không khí (AQI)**
+ **Eco-Track đáp ứng hoàn toàn yêu cầu đề thi – được thiết kế theo đúng tiêu chuẩn đô thị thông minh.**
+ Tập trung vào **dữ liệu chất lượng không khí (AQI)**
 
 ---
 
@@ -111,16 +111,16 @@ Nguồn dữ liệu AQI & pollutant
 "]:::ingest
 
 B["
-⚙️ **Data Ingestion Layer**  
-🕒 node-cron  
-📥 fetch-openaq-hours.js  
-📦 Đồng bộ & chuẩn hóa
+ **Data Ingestion Layer**  
+ node-cron  
+ fetch-openaq-hours.js  
+ Đồng bộ & chuẩn hóa
 "]:::ingest
 
 C["
-🍃 **Data Sync Service**  
-🔁 sync-openaq-to-districts.js  
-📊 Quy đổi AQI US  
+ **Data Sync Service**  
+ sync-openaq-to-districts.js  
+ Quy đổi AQI US  
 "]:::service
 
 D["
@@ -133,32 +133,32 @@ D["
 
 E["
 🟩 **Node.js + Express API**  
-🔗 Client API  
-🔗 Admin API  
-🔗 Prediction API  
-🔗 NGSI-LD API  
+ Client API  
+ Admin API  
+ Prediction API  
+ NGSI-LD API  
 "]:::node
 
 F["
-🧠 **Python ML Engine**  
-📦 PyTorch LSTM  
-📚 Pandas / NumPy  
-🔮 predict_from_json.py  
+ **Python ML Engine**  
+ PyTorch LSTM  
+ Pandas / NumPy  
+ predict_from_json.py  
 "]:::py
 
 G["
 🗺 **Client UI**  
-🌐 Pug Templates  
+ Pug Templates  
 🗺 Leaflet.js  
-📊 Chart.js  
-🎨 Bootstrap 5  
+ Chart.js  
+ Bootstrap 5  
 "]:::front
 
 H["
 🛠 **Admin Dashboard**  
-📌 Data Monitor  
-📌 Charts  
-📌 Validation Tools  
+ Data Monitor  
+ Charts  
+ Validation Tools  
 "]:::front
 
 %% --- CONNECTIONS ---
@@ -184,25 +184,25 @@ H -- admin API --> E
 
 # ❤️ Eco-Track phục vụ cộng đồng như thế nào?
 
-### 🧒👵 **1. Người dân**
+###  **1. Người dân**
 
 * Xem chất lượng không khí từng quận/phường
 * Nắm thời điểm không khí ô nhiễm để tránh ra đường
 * Theo dõi xu hướng để bảo vệ trẻ em, người già, người bệnh
 
-### 🎓 **2. Sinh viên – giảng viên – nhà nghiên cứu**
+###  **2. Sinh viên – giảng viên – nhà nghiên cứu**
 
 * Truy cập dữ liệu mở chuẩn hóa
 * Sử dụng API, dữ liệu lịch sử cho học thuật
 * Tích hợp vào đồ án, nghiên cứu AI/ML
 
-### 🏛️ **3. Chính quyền – quản lý đô thị**
+###  **3. Chính quyền – quản lý đô thị**
 
 * Quan sát mức độ ô nhiễm theo khu vực
 * Phân tích thời gian, dự đoán xu hướng
 * Làm báo cáo, cảnh báo, ra quyết định
 
-### 🧑‍💻 **4. Cộng đồng mã nguồn mở**
+###  **4. Cộng đồng mã nguồn mở**
 
 * Mọi người đều có thể đóng góp
 * Tự cài đặt hệ thống theo chuẩn OLP
