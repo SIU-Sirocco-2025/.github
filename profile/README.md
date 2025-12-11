@@ -90,7 +90,6 @@ Trở thành nền tảng dữ liệu môi trường mở chuẩn hóa theo NGSI
 
 # 🧱 Kiến Trúc Hệ Thống — System Architecture
 
-⚠️ **Dán MÃ MERMAID dưới đây vào README để GitHub tự render thành diagram đẹp:**
 
 ```mermaid
 flowchart TB
