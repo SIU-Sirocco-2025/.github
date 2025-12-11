@@ -93,7 +93,6 @@ Trở thành nền tảng dữ liệu môi trường mở chuẩn hóa theo NGSI
 
 ```mermaid
 flowchart TB
-
 %% --- STYLES ---
 classDef api fill:#1976d2,stroke:#0d47a1,stroke-width:1px,color:#fff
 classDef db fill:#4caf50,stroke:#1b5e20,stroke-width:1px,color:#fff
@@ -102,27 +101,22 @@ classDef front fill:#0097a7,stroke:#006064,stroke-width:1px,color:#fff
 classDef ingest fill:#7e57c2,stroke:#4527a0,stroke-width:1px,color:#fff
 classDef node fill:#8d6e63,stroke:#4e342e,stroke-width:1px,color:#fff
 classDef service fill:#5c6bc0,stroke:#283593,stroke-width:1px,color:#fff
-
 %% --- NODES ---
-
 A["
 🌍 **OpenAQ API v3**  
 Nguồn dữ liệu AQI & pollutant
 "]:::ingest
-
 B["
- **Data Ingestion Layer**  
- node-cron  
- fetch-openaq-hours.js  
- Đồng bộ & chuẩn hóa
+⚙️ **Data Ingestion Layer**  
+🕒 node-cron  
+📥 fetch-openaq-hours.js  
+📦 Đồng bộ & chuẩn hóa
 "]:::ingest
-
 C["
- **Data Sync Service**  
- sync-openaq-to-districts.js  
- Quy đổi AQI US  
+🍃 **Data Sync Service**  
+🔁 sync-openaq-to-districts.js  
+📊 Quy đổi AQI US  
 "]:::service
-
 D["
 🍃 **MongoDB**  
 🗄 Collections:  
@@ -130,39 +124,33 @@ D["
 • district*_readings  
 • hcmc_readings  
 "]:::db
-
 E["
 🟩 **Node.js + Express API**  
- Client API  
- Admin API  
- Prediction API  
- NGSI-LD API  
+🔗 Client API  
+🔗 Admin API  
+🔗 Prediction API  
+🔗 NGSI-LD API  
 "]:::node
-
 F["
- **Python ML Engine**  
- PyTorch LSTM  
- Pandas / NumPy  
- predict_from_json.py  
+🧠 **Python ML Engine**  
+📦 PyTorch LSTM  
+📚 Pandas / NumPy  
+🔮 predict_from_json.py  
 "]:::py
-
 G["
 🗺 **Client UI**  
- Pug Templates  
+🌐 Pug Templates  
 🗺 Leaflet.js  
- Chart.js  
- Bootstrap 5  
+📊 Chart.js  
+🎨 Bootstrap 5  
 "]:::front
-
 H["
 🛠 **Admin Dashboard**  
- Data Monitor  
- Charts  
- Validation Tools  
+📌 Data Monitor  
+📌 Charts  
+📌 Validation Tools  
 "]:::front
-
 %% --- CONNECTIONS ---
-
 A --> B
 B --> C
 C --> D
@@ -170,7 +158,6 @@ D --> E
 E --> F
 E --> G
 E --> H
-
 %% --- LABELS ---
 B -- chuẩn hoá --> C
 D -- query --> E
@@ -179,7 +166,6 @@ F -- dự đoán --> E
 G -- fetch API --> E
 H -- admin API --> E
 ```
-
 ---
 
 # ❤️ Eco-Track phục vụ cộng đồng như thế nào?
